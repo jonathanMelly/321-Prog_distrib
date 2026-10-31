@@ -1,0 +1,33 @@
+# Idempotence
+
+![idempotence.png](../supports/assets/idempotence.png)
+
+Un message peut arriver deux fois, ou pas du tout. Comment faire pour que l'effet ne se produise qu'une fois ?
+
+**À l'issue de cette thématique, vous serez capable de :**
+- classer une opération (idempotente ou non)
+- dédupliquer par identifiant et borner la mémoire nécessaire
+- expliquer pourquoi dédupliquer ne suffit pas quand l'ordre compte
+- décrire l'idempotence d'une API HTTP
+
+**Fallacies :** 1 (fiabilité). Voir [les 8 fallacies](../supports/fallacies.md).
+
+## Théorie
+- [Idempotence](../supports/idempotence.md)
+- [Kahoot](https://create.kahoot.it/details/af92797e-3495-40b3-8a37-ae8d9d5bfbf9)
+
+## Drill
+- [D05 — Idempotence : le solde après les doublons](../activites/drills/D05-idempotence.md)
+
+## Chat
+- [C5 — Ignorer les doublons](../activites/chat/C5-doublons.md)
+
+## Fil rouge
+
+| Fil rouge  | Activité                                                                         |
+|------------|----------------------------------------------------------------------------------|
+| UMDD       | [Banque, coopérative, Fair Trade](../activites/fil-rouge/umdd/banque-coop.md)    |
+| Powercher  | [Powercher](../activites/fil-rouge/powercher/README.md#idempotence-transactions) |
+| Pedaloland | [Mapping](../activites/fil-rouge/pedalo/README.md)                               |
+
+Activité historique : [Idempotence en pratique](../activites/idempotence/README.md)
